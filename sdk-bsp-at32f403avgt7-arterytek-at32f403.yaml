@@ -1,0 +1,126 @@
+board:
+  buy_url_cn: http://www.arterytek.com/cn/product/AT32F403A.jsp
+  buy_url_global: http://www.arterytek.com/cn/product/AT32F403A.jsp
+  debug_interface: SWD
+  debugger: DAP-LINK
+  description_en: Arterytek Technology AT32F403A series of high-performance microcontrollers,
+    equipped with a 32-bit ARM Cortex-M4 core, and advanced manufacturing processes
+    can effectively increase the overall performance of 240MHz computing speed. The
+    built-in single-precision floating-point unit (FPU) and digital signal processor
+    (DSP), with rich peripherals and flexible clock control mechanism, can meet a
+    variety of applications. The complete memory design can support up to 1MB flash
+    memory (Flash) and 224KB random access memory (SRAM). Its flash memory performs
+    excellent performance of zero wait, surpassing the level of the same chip in the
+    industry.
+  description_zh: 雅特力科技 AT32F403A系列高效能微控制器，搭载32位ARM Cortex -M4内核，配合先进制程有效提升整体效能达240MHz的运算速度。内建的单精度浮点运算单元(FPU)及数字信号处理器(DSP)，搭配丰富的外设及灵活的时钟控制机制，能满足多种领域应用。
+    完善的内存设计，最高可支持1MB闪存存储器(Flash)及224KB随机存取存储器(SRAM)，其闪存存储器执行零等待的优异表现，超越业界同级芯片水平。
+  emulator_machine: ''
+  large_image: documents/images/at32f403a.png
+  name: AT32F403
+  price_cn: ' CNY'
+  price_global: ' USD'
+  sale_contact_cn: http://www.arterytek.com/cn/product/AT32F403A.jsp
+  sale_contact_global: http://www.arterytek.com/cn/product/AT32F403A.jsp
+  small_image: documents/images/at32f403a.png
+  vendor: Arterytek
+  version: AT32F403A-AT-START
+chip:
+  chip_name: AT32F403AVGT7
+  clock_source: HSE
+  device_vendor: Arterytek
+  family_name: AT32
+  rx_name: PA10
+  series_name: AT32F4
+  source_freq: '8000000'
+  sub_series_name: AT32F403A
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: other
+  file: documents/AT_START_F403A_V1.2_SCH.pdf
+  title: Schematic
+- category: manual
+  file: documents/UM_AT_START_F403A_V1.2.pdf
+  title: UM_AT_START_F403A_V1
+- category: other
+  file: documents/AT_START_F403A_V1.2_BOM.xlsx
+  title: BOM
+- category: other
+  file: documents/AT_START_F403A_V1.2_PCB.pdf
+  title: PCB
+example_projects: []
+features:
+- ARM Cortex-M4240MHz
+- 3 x I2C
+- 4 x SPI / I2S
+- 4 x USART + 4 x UART
+- 2 x SDIO
+- 2 x CAN 2.0B
+features_zh:
+- ARM Cortex-M4 240MHz
+- 3 x I2C
+- 4 x SPI / I2S
+- 4 x USART + 4 x UART
+- 2 x SDIO
+- 2 x CAN 2.0B
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - JLinkSettings.ini
+    - Kconfig
+    - Libraries
+    - makefile.targets
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig.pyc
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewd
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: at32f403a
+  project_name: at32f403a
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
