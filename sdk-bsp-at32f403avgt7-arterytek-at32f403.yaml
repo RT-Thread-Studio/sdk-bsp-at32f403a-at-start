@@ -16,14 +16,14 @@ board:
     完善的内存设计，最高可支持1MB闪存存储器(Flash)及224KB随机存取存储器(SRAM)，其闪存存储器执行零等待的优异表现，超越业界同级芯片水平。
   emulator_machine: ''
   large_image: documents/images/at32f403a.png
-  name: AT32F403
+  name: AT32F403A-AT-START
   price_cn: ' CNY'
   price_global: ' USD'
   sale_contact_cn: http://www.arterytek.com/cn/product/AT32F403A.jsp
   sale_contact_global: http://www.arterytek.com/cn/product/AT32F403A.jsp
   small_image: documents/images/at32f403a.png
-  vendor: Arterytek
-  version: AT32F403A-AT-START
+  vendor: ArteryTek
+  version: 1.0.0
 chip:
   chip_name: AT32F403AVGT7
   clock_source: HSE
