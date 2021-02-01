@@ -27,7 +27,7 @@ board:
 chip:
   chip_name: AT32F403AVGT7
   clock_source: HSE
-  device_vendor: Arterytek
+  device_vendor: ArteryTek
   family_name: AT32
   rx_name: PA10
   series_name: AT32F4
