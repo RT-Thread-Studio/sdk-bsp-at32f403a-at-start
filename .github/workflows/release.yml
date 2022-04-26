@@ -1,0 +1,25 @@
+name: Create Release
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Create Release
+      id: create_release
+      if: ${{ github.ref == 'refs/heads/master' }}
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v1.0.1
+        release_name: Release v1.0.1
+        body: |
+          Add support for RT-Thread 4.1.0
+        draft: false
+        prerelease: false
