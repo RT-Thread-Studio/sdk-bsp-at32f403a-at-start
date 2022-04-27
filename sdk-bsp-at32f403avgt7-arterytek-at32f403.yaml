@@ -66,8 +66,63 @@ features_zh:
 - 2 x CAN 2.0B
 pkg_type: Board_Support_Packages
 pkg_vendor: RealThread
-pkg_version: 1.0.0
+pkg_version: 1.0.1
 template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - JLinkSettings.ini
+    - Kconfig
+    - Libraries
+    - makefile.targets
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig.pyc
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewd
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: 4.1.0
+    source_path_offset: ''
+    target_path_offset: rt-thread
+  project_description: at32f403a
+  project_name: at32f403a
+  project_type: rt-thread|@full|@4.1.0
 - builtin_files:
   - files_and_folders:
     - .config
